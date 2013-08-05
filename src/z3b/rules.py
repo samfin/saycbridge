@@ -809,3 +809,4 @@ class StandardAmericanYellowCard(object):
     priority_ordering.make_less_than(response_priorities, nt_response_priorities)
     priority_ordering.make_less_than(preempt_priorities, opening_priorities)
     priority_ordering.make_less_than(natural_priorities, response_priorities)
+    priority_ordering.make_less_than(natural_priorities, opener_rebid_priorities)
